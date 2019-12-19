@@ -1,0 +1,70 @@
+{
+    "name": "CKAN",
+    "description": "The #opensource #opendata platform. Powering http:\/\/t.co\/GdXNmN65Sf, http:\/\/t.co\/9O9OJjJnJd & portals around the world: http:\/\/t.co\/YEGynxgDgM. Join us!",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/11383-ckan.jpg",
+    "tags": [
+        "api service provider",
+        "data",
+        "deployment",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/ckan\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "CKAN",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/11383-ckan.jpg",
+            "humanURL": "http:\/\/ckan.org\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ckan-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ckan-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "http:\/\/ckan.org\/blog\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/ckan.org\/feed\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/product\/ckan-open-source-data-management-system"
+        },
+        {
+            "type": "Email",
+            "url": "wg-gov@ckan.org"
+        },
+        {
+            "type": "Email",
+            "url": "steering-group@ckan.org"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/ckan"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/ckanproject"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/ckan.org\/"
+        }
+    ]
+}

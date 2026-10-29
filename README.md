@@ -64,5 +64,111 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-CKAN is a company surfaced via the API Evangelist harvest backlog (source: tag-qc) and added to the network as a stub for full-pipeline profiling.
-- https://ckan.org
+CKAN is an open-source data management system that powers data portals and hubs worldwide. It enables organizations to publish, share, and use data efficiently, supporting governments, enterprises, and communities across the globe. CKAN provides robust features for data cataloging, API access, and community-driven extensions, fostering open data initiatives and transparency.
+
+**Areas:** Open Source · Data-Management · Government · Community
+
+## CKAN on APIs.io
+
+Everything profiled for CKAN is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ckan/](https://apis.io/providers/ckan/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [CKAN Action API](https://apis.io/apis/ckan/ckan-action-api/) — The Action API from CKAN — 2 operation(s) for action.
+- [CKAN CKAN API](https://apis.io/apis/ckan/ckan-ckan-api-api/) — The CKAN API API from CKAN — 1 operation(s) for ckan api.
+- [CKAN Search API](https://apis.io/apis/ckan/ckan-search-api/) — The Search API from CKAN — 1 operation(s) for search.
+- [CKAN Solr API](https://apis.io/apis/ckan/ckan-solr-api/) — The Solr API from CKAN — 3 operation(s) for solr.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [GetApiActionActionidResponse](https://apis.io/schemas/ckan/ckan-get-api-action-actionid-response/)
+- [GetApiSearchDatasetResponse](https://apis.io/schemas/ckan/ckan-get-api-search-dataset-response/)
+- [GetResponse](https://apis.io/schemas/ckan/ckan-get-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Ckan Context](https://apis.io/jsonld/ckan/ckan-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [CKAN API Rules](https://apis.io/rules/ckan/ckan-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ckan Domain Security](https://apis.io/security/ckan/ckan-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ckan.org)
+- [Documentation](https://docs.ckan.org/en/2.12/)
+- [Getting started](https://docs.ckan.org/en/2.12/maintaining/getting-started.html)
+- [API reference](https://docs.ckan.org/en/2.12/api/index.html)
+- [Support](https://ckan.org/faq)
+- [Blog](https://ckan.org/blog)
+
+## API Evangelist rating
+
+**Kin Score 27.3** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 21.9 |
+| Contract governance | 22.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 13.2 |
+
+**Agent readiness 23.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | na |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | na |
+| Error Semantics | — |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | na |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ckan/](https://apis.io/providers/ckan/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for CKAN: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ckan/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
